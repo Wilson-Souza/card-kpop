@@ -1,0 +1,27 @@
+.section-card {
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section-card h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    margin: 15px 0; 
+    font-weight: bold;
+    padding: 5px;
+}
+
+.section-card .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.select {
+    margin: 24px 0;
+}
+
+.select label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+
+}
+
+.select select {
+    background-color: white;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding: 12px;
+    box-sizing: border-box;
+}

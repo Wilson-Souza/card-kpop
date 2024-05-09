@@ -1,0 +1,25 @@
+.footer {
+  background-color: #6278f7;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: 500;
+  color: aliceblue;
+  padding: 10px 0px;
+}
+
+.icons img {
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .icons {
+    display: none;
+  }
+}
